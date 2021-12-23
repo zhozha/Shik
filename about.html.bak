@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Shik</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-static/">
+
+    <link rel="icon" href="images/manga.png" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+	body {background:  url(assets/images/background.png);
+	}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar-top.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Shik</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Рейтинг</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="contact.html">История</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+      </form>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+  <div class="bg-light p-5 rounded">
+    <h1>Рейтинг</h1>
+    <p class="lead">Таблица, сделанная на основе большого количества оценок людей. Предназначена для упрощения выбора произведения. </p>
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Назавние</th>
+      <th scope="col">Жанр</th>
+      <th scope="col">Рейтинг</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><strong>Берсерк</strong> <img src="images/ber.jpg" align="left" height="70" width="50"> <br><small>41 том<br> 1989-2021</small></td>
+      <td>Драма</td>
+      <td>9.42</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><strong>Джо Джо</strong> <img src="images/jojo.jpg" align="left" height="70" width="50"> <br><small>24 тома<br> 2004-2011</small></td>
+      <td>Экшкен</td>
+      <td>9.26</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td ><strong>Ван пис</strong> <img src="images/one.jpg" align="left" height="70" width="50"> <br><small>? томов<br> 1997-</small></td>
+	  <td>Приключение</td>
+      <td>9.17</td>
+    </tr>
+	 <tr>
+      <th scope="row">4</th>
+      <td><strong>Бродяга</strong> <img src="images/vagabond.jpg" align="left" height="70" width="50"> <br><small>37 тома<br> 1998-2015</small></td>
+      <td>Экшкен</td>
+      <td>9.15</td>
+    </tr>
+	 <tr>
+      <th scope="row">5</th>
+      <td><strong>Монстр</strong> <img src="images/monster.jpg" align="left" height="70" width="50"> <br><small>18 томов<br> 1994-2001</small></td>
+      <td>Драма</td>
+      <td>9.11</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+	
+
+      
+  </body>
+</html>
